@@ -49,6 +49,8 @@ namespace jagiyo
         public INavigation nav;
         private async void listView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
+            DependencyService.Get<IOrientationHandler>().ForceLandscape();
+            //텍스트 눌렀을때
             string tagContent = e.SelectedItem as string;
             //await nav.PushAsync();
 
