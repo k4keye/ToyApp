@@ -1,0 +1,15 @@
+D:\ProjectPath\ToyApp\jagiyo\jagiyo\jagiyo\bin\Release\netstandard2.0\jagiyo.deps.json
+D:\ProjectPath\ToyApp\jagiyo\jagiyo\jagiyo\bin\Release\netstandard2.0\jagiyo.dll
+D:\ProjectPath\ToyApp\jagiyo\jagiyo\jagiyo\bin\Release\netstandard2.0\ref\jagiyo.dll
+D:\ProjectPath\ToyApp\jagiyo\jagiyo\jagiyo\bin\Release\netstandard2.0\jagiyo.pdb
+D:\ProjectPath\ToyApp\jagiyo\jagiyo\jagiyo\obj\Release\netstandard2.0\jagiyo.csprojAssemblyReference.cache
+D:\ProjectPath\ToyApp\jagiyo\jagiyo\jagiyo\obj\Release\netstandard2.0\App.xaml.g.cs
+D:\ProjectPath\ToyApp\jagiyo\jagiyo\jagiyo\obj\Release\netstandard2.0\jumoneyo.xaml.g.cs
+D:\ProjectPath\ToyApp\jagiyo\jagiyo\jagiyo\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+D:\ProjectPath\ToyApp\jagiyo\jagiyo\jagiyo\obj\Release\netstandard2.0\jagiyo.AssemblyInfoInputs.cache
+D:\ProjectPath\ToyApp\jagiyo\jagiyo\jagiyo\obj\Release\netstandard2.0\jagiyo.AssemblyInfo.cs
+D:\ProjectPath\ToyApp\jagiyo\jagiyo\jagiyo\obj\Release\netstandard2.0\jagiyo.csproj.CoreCompileInputs.cache
+D:\ProjectPath\ToyApp\jagiyo\jagiyo\jagiyo\obj\Release\netstandard2.0\XamlC.stamp
+D:\ProjectPath\ToyApp\jagiyo\jagiyo\jagiyo\obj\Release\netstandard2.0\jagiyo.dll
+D:\ProjectPath\ToyApp\jagiyo\jagiyo\jagiyo\obj\Release\netstandard2.0\ref\jagiyo.dll
+D:\ProjectPath\ToyApp\jagiyo\jagiyo\jagiyo\obj\Release\netstandard2.0\jagiyo.pdb
