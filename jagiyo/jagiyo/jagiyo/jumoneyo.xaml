@@ -8,8 +8,8 @@
              x:Class="jagiyo.jumoneyo">
     
         <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
-            <ScrollView  Orientation="Horizontal" HorizontalScrollBarVisibility="Never" VerticalScrollBarVisibility="Never">
-            <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" >
+            <ScrollView  Orientation="Horizontal" HorizontalScrollBarVisibility="Never" VerticalScrollBarVisibility="Never" Scrolled="ScrollView_Scrolled">
+            <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"  >
             <Label x:Name="Order" Text="" TextColor="Black" VerticalOptions="FillAndExpand" FontSize="100"  HorizontalOptions="FillAndExpand"/>
             </StackLayout>
             </ScrollView>
