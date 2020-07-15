@@ -1,80 +1,80 @@
 	.section	.rodata.map_aname.0,"aMS",%progbits,1
 	.type	.L.map_aname.0, %object
 .L.map_aname.0:
-	.asciz	"Xamarin.Forms.Platform.Android"
-	.size	.L.map_aname.0, 31
+	.asciz	"Mono.Android"
+	.size	.L.map_aname.0, 13
 
 	.section	.rodata.map_aname.1,"aMS",%progbits,1
 	.type	.L.map_aname.1, %object
 .L.map_aname.1:
-	.asciz	"Xamarin.Android.Support.Compat"
+	.asciz	"Xamarin.Forms.Platform.Android"
 	.size	.L.map_aname.1, 31
 
 	.section	.rodata.map_aname.2,"aMS",%progbits,1
 	.type	.L.map_aname.2, %object
 .L.map_aname.2:
-	.asciz	"Xamarin.Android.Support.v7.CardView"
-	.size	.L.map_aname.2, 36
+	.asciz	"Xamarin.Android.Support.Compat"
+	.size	.L.map_aname.2, 31
 
 	.section	.rodata.map_aname.3,"aMS",%progbits,1
 	.type	.L.map_aname.3, %object
 .L.map_aname.3:
-	.asciz	"Xamarin.Android.Support.Core.UI"
-	.size	.L.map_aname.3, 32
+	.asciz	"Xamarin.Android.Support.v7.CardView"
+	.size	.L.map_aname.3, 36
 
 	.section	.rodata.map_aname.4,"aMS",%progbits,1
 	.type	.L.map_aname.4, %object
 .L.map_aname.4:
-	.asciz	"Xamarin.Android.Support.Loader"
-	.size	.L.map_aname.4, 31
+	.asciz	"jagiyo.Android"
+	.size	.L.map_aname.4, 15
 
 	.section	.rodata.map_aname.5,"aMS",%progbits,1
 	.type	.L.map_aname.5, %object
 .L.map_aname.5:
-	.asciz	"Xamarin.Android.Support.v7.RecyclerView"
-	.size	.L.map_aname.5, 40
+	.asciz	"Xamarin.Android.Support.Core.UI"
+	.size	.L.map_aname.5, 32
 
 	.section	.rodata.map_aname.6,"aMS",%progbits,1
 	.type	.L.map_aname.6, %object
 .L.map_aname.6:
-	.asciz	"Mono.Android"
-	.size	.L.map_aname.6, 13
+	.asciz	"Xamarin.Android.Support.Loader"
+	.size	.L.map_aname.6, 31
 
 	.section	.rodata.map_aname.7,"aMS",%progbits,1
 	.type	.L.map_aname.7, %object
 .L.map_aname.7:
-	.asciz	"FormsViewGroup"
-	.size	.L.map_aname.7, 15
+	.asciz	"Xamarin.Android.Support.v7.RecyclerView"
+	.size	.L.map_aname.7, 40
 
 	.section	.rodata.map_aname.8,"aMS",%progbits,1
 	.type	.L.map_aname.8, %object
 .L.map_aname.8:
-	.asciz	"Xamarin.Android.Arch.Lifecycle.LiveData.Core"
-	.size	.L.map_aname.8, 45
+	.asciz	"FormsViewGroup"
+	.size	.L.map_aname.8, 15
 
 	.section	.rodata.map_aname.9,"aMS",%progbits,1
 	.type	.L.map_aname.9, %object
 .L.map_aname.9:
-	.asciz	"Xamarin.Android.Support.CoordinaterLayout"
-	.size	.L.map_aname.9, 42
+	.asciz	"Xamarin.Android.Arch.Lifecycle.LiveData.Core"
+	.size	.L.map_aname.9, 45
 
 	.section	.rodata.map_aname.10,"aMS",%progbits,1
 	.type	.L.map_aname.10, %object
 .L.map_aname.10:
-	.asciz	"Xamarin.Android.Support.Fragment"
-	.size	.L.map_aname.10, 33
+	.asciz	"Xamarin.Android.Support.CoordinaterLayout"
+	.size	.L.map_aname.10, 42
 
 	.section	.rodata.map_aname.11,"aMS",%progbits,1
 	.type	.L.map_aname.11, %object
 .L.map_aname.11:
-	.asciz	"Xamarin.Android.Support.SwipeRefreshLayout"
-	.size	.L.map_aname.11, 43
+	.asciz	"Xamarin.Android.Support.Fragment"
+	.size	.L.map_aname.11, 33
 
 	.section	.rodata.map_aname.12,"aMS",%progbits,1
 	.type	.L.map_aname.12, %object
 .L.map_aname.12:
-	.asciz	"jagiyo.Android"
-	.size	.L.map_aname.12, 15
+	.asciz	"Xamarin.Android.Support.SwipeRefreshLayout"
+	.size	.L.map_aname.12, 43
 
 	.section	.rodata.map_aname.13,"aMS",%progbits,1
 	.type	.L.map_aname.13, %object

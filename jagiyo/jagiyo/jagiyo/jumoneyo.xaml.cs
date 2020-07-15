@@ -19,5 +19,10 @@ namespace jagiyo
 
             Order.Text = text;
         }
+
+        private void ScrollView_Scrolled(object sender, ScrolledEventArgs e)
+        {
+
+        }
     }
 }
