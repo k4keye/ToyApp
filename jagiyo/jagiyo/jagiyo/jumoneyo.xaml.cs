@@ -16,13 +16,19 @@ namespace jagiyo
         {
             InitializeComponent();
 
-
             Order.Text = text;
         }
 
         private void ScrollView_Scrolled(object sender, ScrolledEventArgs e)
         {
 
+        }
+
+        protected override bool OnBackButtonPressed()
+        {
+            DependencyService.Get<IOrientationHandler>().ForcePortrait();
+
+            return false;
         }
     }
 }
