@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "tdAMj2tuonkRC2DZAWjyXSTeAJTpDrcJ8yE7hlMAEscHej4tHODT9U96G6T9cL0Hx456skP/CaOrdThpN+NJpQ==",
+  "success": true,
+  "projectFilePath": "D:\\ProjectPath\\ImageAlerm\\ImageAlerm\\ImageAlerm.iOS\\ImageAlerm.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vps32\\.nuget\\packages\\syncfusion.licensing\\18.2.0.46\\syncfusion.licensing.18.2.0.46.nupkg.sha512",
+    "C:\\Users\\vps32\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
+    "C:\\Users\\vps32\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\vps32\\.nuget\\packages\\xamarin.forms\\4.7.0.1179\\xamarin.forms.4.7.0.1179.nupkg.sha512"
+  ],
+  "logs": []
+}

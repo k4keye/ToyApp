@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ImageAlerm.AlermPage">
+    <ContentPage.Content>
+        <ScrollView BackgroundColor="White">
+            <StackLayout>
+                <Image Source="k4keye.png" 
+                   WidthRequest="300"
+                   HeightRequest="300" x:Name="AlermImg" IsVisible="true" />
+                
+                <Frame  HorizontalOptions="Fill" VerticalOptions="Start" BackgroundColor="Beige"  CornerRadius="15"  >
+                    <Label Text="이미지를 선택해주세요."
+                        HorizontalOptions="Center" x:Name="AlermText" >
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnLabelClicked" />
+                        </Label.GestureRecognizers>
+                    </Label>
+                </Frame>
+                
+
+
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
