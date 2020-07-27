@@ -16,35 +16,36 @@ namespace jagiyo
         public MainPage()
         {
             InitializeComponent();
-            List<string> list = new List<string>();
+            List<itemss> items = new List<itemss>();
             #region 텍스트
-            list.Add("2명 이요");
-            list.Add("3명 이요");
-            list.Add("4명 이요");
-            list.Add("주문 이요");
-            list.Add("500cc 하나 주세요");
-            list.Add("500cc 두개 주세요");
-            list.Add("500cc 세개 주세요");
-            list.Add("진로 하나 주세요");
-            list.Add("참이슬 하나 주세요");
-            list.Add("처음처럼 하나 주세요");
+            items.Add(new itemss() { value= "2명 이요"});
+            items.Add(new itemss() { value= "3명 이요"});
+            items.Add(new itemss() { value= "4명 이요"});
+            items.Add(new itemss() { value= "주문 이요"});
+            items.Add(new itemss() { value= "500cc 하나 주세요"});
+            items.Add(new itemss() { value= "500cc 두개 주세요"});
+            items.Add(new itemss() { value= "500cc 세개 주세요"});
+            items.Add(new itemss() { value= "진로 하나 주세요"});
+            items.Add(new itemss() { value= "참이슬 하나 주세요"});
+            items.Add(new itemss() { value= "처음처럼 하나 주세요"});
 
-            list.Add("가장 인기 많은게 뭔가요?");
-            list.Add("치킨 하나 주세요");
-            list.Add("피자 하나 주세요");
-            list.Add("골뱅이 소면 주세요");
-            list.Add("삼겹살 1인분 주세요");
-            list.Add("삼겹살 2인분 주세요");
-            list.Add("삼겹살 3인분 주세요");
-            list.Add("1인분 추가요");
-            list.Add("2인분 추가요");
-            list.Add("감자튀김 하나요");
-            list.Add("감사 합니다.");
-            list.Add("계산 이요");
+            items.Add(new itemss() { value= "가장 인기 많은게 뭔가요?"});
+            items.Add(new itemss() { value= "치킨 하나 주세요"});
+            items.Add(new itemss() { value= "피자 하나 주세요"});
+            items.Add(new itemss() { value= "골뱅이 소면 주세요"});
+            items.Add(new itemss() { value= "삼겹살 1인분 주세요"});
+            items.Add(new itemss() { value= "삼겹살 2인분 주세요"});
+            items.Add(new itemss() { value= "삼겹살 3인분 주세요"});
+            items.Add(new itemss() { value= "1인분 추가요"});
+            items.Add(new itemss() { value= "2인분 추가요"});
+            items.Add(new itemss() { value= "감자튀김 하나요"});
+            items.Add(new itemss() { value= "감사 합니다."});
+            items.Add(new itemss() { value= "계산 이요"});
             #endregion
-            listView.ItemsSource = list;
 
-            
+            listView.ItemsSource = items;
+            NavigationPage.SetHasNavigationBar(this, false);
+
         }
         public INavigation nav;
         private async void listView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
@@ -54,11 +55,21 @@ namespace jagiyo
             string tagContent = e.SelectedItem as string;
             //await nav.PushAsync();
 
-            await Navigation.PushAsync(new NavigationPage(new jumoneyo(tagContent)));
+            var page = new jumoneyo(tagContent);
+
+            await Navigation.PushModalAsync(new NavigationPage(page));
 
 
-           // DisplayAlert("Selected", tagContent, "OK");
-                
+            // DisplayAlert("Selected", tagContent, "OK");
+
         }
+
+        
+
+    }
+
+    public class itemss
+    {
+     public   string value;
     }
 }

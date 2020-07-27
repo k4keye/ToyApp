@@ -9,6 +9,7 @@ namespace jagiyo
         public App()
         {
             InitializeComponent();
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MjkxMDg2QDMxMzgyZTMyMmUzMEExM3FXekJiTlh2bmdLTXNVdHAyRW40RGw2TGdzYy9aZXFCYmljRXViYk09");
 
             MainPage = new NavigationPage(new jagiyo.MainPage());
         }

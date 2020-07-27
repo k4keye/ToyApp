@@ -5,14 +5,53 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
             
+
+             
              x:Class="jagiyo.MainPage">
 
     <StackLayout>
         <!-- Place new controls here -->
-        <ListView x:Name="listView" SeparatorVisibility="None" SeparatorColor="Black"  ItemSelected="listView_ItemSelected"/>
+        <ListView x:Name="listView" SeparatorVisibility="None"  SeparatorColor="Black"  ItemSelected="listView_ItemSelected">
 
 
-        <Label x:Name="lavvvv" Text="{Binding aaaa}"></Label>
+
+
+
+
+            <ListView.ItemTemplate>
+
+
+                <DataTemplate>
+
+
+
+                    <ViewCell>
+
+
+                        <StackLayout>
+
+                            <Label  TextColor="Black" BackgroundColor="Azure"  FontSize="Small"  Text="{Binding value}"></Label>
+
+
+                        </StackLayout>
+
+
+
+                    </ViewCell>
+                    
+                    
+                </DataTemplate>
+                
+                
+            </ListView.ItemTemplate>
+            
+        </ListView>
+                  
+                  
+
+
+
+        
     </StackLayout>
 
 </ContentPage>
