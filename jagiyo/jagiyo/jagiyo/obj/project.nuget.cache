@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "CG7opxQYv+a4Ks8MZ6VORDF5cuc1jqzkIB4v2FQTU73VAhzv6jRFLvfqpKuIxpAEg+VaLaZkzXQv3lc8JLhcnQ==",
+  "dgSpecHash": "QpN9KmQKarhLBoalNaOJZK58Bm+6KSbqGKoNmgwz5EXgmKjkJzO7vi7EkQBoIZdwbkC3gamf/vpl578prYz+/g==",
   "success": true,
-  "projectFilePath": "D:\\Project_path\\Xamarin\\jagiyo_origin\\jagiyo\\jagiyo\\jagiyo\\jagiyo.csproj",
+  "projectFilePath": "D:\\ProjectPath\\ToyApp\\jagiyo\\jagiyo\\jagiyo\\jagiyo.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\vps32\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\vps32\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\vps32\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+    "C:\\Users\\vps32\\.nuget\\packages\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
   ],
   "logs": []
 }

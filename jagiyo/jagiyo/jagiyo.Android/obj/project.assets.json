@@ -1934,24 +1934,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kimjinyoung\\.nuget\\packages\\": {},
+    "C:\\Users\\vps32\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kimjinyoung\\Desktop\\jagiyo\\jagiyo\\jagiyo.Android\\jagiyo.Android.csproj",
+      "projectUniqueName": "D:\\ProjectPath\\ToyApp\\jagiyo\\jagiyo\\jagiyo.Android\\jagiyo.Android.csproj",
       "projectName": "jagiyo.Android",
-      "projectPath": "C:\\Users\\kimjinyoung\\Desktop\\jagiyo\\jagiyo\\jagiyo.Android\\jagiyo.Android.csproj",
-      "packagesPath": "C:\\Users\\kimjinyoung\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kimjinyoung\\Desktop\\jagiyo\\jagiyo\\jagiyo.Android\\obj\\",
+      "projectPath": "D:\\ProjectPath\\ToyApp\\jagiyo\\jagiyo\\jagiyo.Android\\jagiyo.Android.csproj",
+      "packagesPath": "C:\\Users\\vps32\\.nuget\\packages\\",
+      "outputPath": "D:\\ProjectPath\\ToyApp\\jagiyo\\jagiyo\\jagiyo.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\kimjinyoung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vps32\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1965,8 +1965,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\kimjinyoung\\Desktop\\jagiyo\\jagiyo\\jagiyo\\jagiyo.csproj": {
-              "projectPath": "C:\\Users\\kimjinyoung\\Desktop\\jagiyo\\jagiyo\\jagiyo\\jagiyo.csproj"
+            "D:\\ProjectPath\\ToyApp\\jagiyo\\jagiyo\\jagiyo\\jagiyo.csproj": {
+              "projectPath": "D:\\ProjectPath\\ToyApp\\jagiyo\\jagiyo\\jagiyo\\jagiyo.csproj"
             }
           }
         }

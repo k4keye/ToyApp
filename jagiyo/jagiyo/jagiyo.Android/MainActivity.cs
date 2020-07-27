@@ -17,6 +17,7 @@ namespace jagiyo.Droid
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
 
+            RequestWindowFeature(WindowFeatures.NoTitle); //타이틀바 제거
             base.OnCreate(savedInstanceState);
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
