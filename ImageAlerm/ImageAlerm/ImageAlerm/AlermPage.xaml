@@ -16,7 +16,7 @@
                     <Label Text="이미지를 선택해주세요."
                         HorizontalOptions="Center" x:Name="AlermText" >
                         <Label.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="OnLabelClicked" />
+                            <TapGestureRecognizer Command="{Binding Listcommand}"/>
                         </Label.GestureRecognizers>
                     </Label>
                 </Frame>

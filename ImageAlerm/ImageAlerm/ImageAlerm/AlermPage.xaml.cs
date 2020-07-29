@@ -55,26 +55,6 @@ namespace ImageAlerm
              }*/
             #endregion
 
-            AlermListDataViewModel.AlermListDataModel.Add(new Model.AlermListDataModel()
-            {
-                aM_PMFlag = "오전",
-                alermDay="월요일",
-                alermTime="16시"
-            });
-            AlermListDataViewModel.AlermListDataModel.Add(new Model.AlermListDataModel()
-            {
-                aM_PMFlag = "오후",
-                alermDay = "월요일",
-                alermTime = "16시"
-            });
-            AlermListDataViewModel.AlermListDataModel.Add(new Model.AlermListDataModel()
-            {
-                aM_PMFlag = "오전",
-                alermDay = "화요일",
-                alermTime = "16시"
-            });
-
-
         }
     }
 }
