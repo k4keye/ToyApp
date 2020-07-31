@@ -19,7 +19,9 @@ namespace ImageAlerm
         public AlermPage()
         {
             InitializeComponent();
-            listview.ItemsSource = AlermListDataViewModel.AlermListDataModel;
+            
+
+            BindingContext = AlermListDataViewModel;
         }
 
       
